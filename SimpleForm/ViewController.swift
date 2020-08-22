@@ -16,5 +16,9 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func metodo2Pressed(_ sender: Any) {
+        print("boton metodo 2 presionado")
+        performSegue(withIdentifier: "usarMetodo2", sender: self)
+    }
 }
 
